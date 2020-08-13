@@ -1,0 +1,23 @@
+body {
+  vertical-align: middle;
+  margin: 20px;
+}
+
+header {
+  align-content: center;
+}
+
+.jumbotron {
+  justify-items: center;
+}
+
+article {}
+
+.field {
+  border: 2px solid lime;
+}
+
+.row {
+
+  text-align: center;
+}
