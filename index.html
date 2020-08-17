@@ -17,116 +17,65 @@
     <header class="jumbotron">
         <h1 class="display-3">Work Day Scheduler</h1>
         <p class="lead">A simple calendar app for scheduling your work day</p>
-        <p id="currentDay" class="lead"></p>
+        <p id="current-day" class="lead"></p>
     </header>
 
     <div class="container">
         <!-- Timeblocks go here -->
 
-        <article>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
+        <div class="row past present future time-block" data-hour="09">
+            <div class="col-md-1">9am</div>
+            <textarea class="col-md-10"></textarea>
+            <button class="saveBtn col-md-1 btn"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row past present future time-block" data-hour="10">
+            <div class="col-md-1">10am</div>
+            <textarea class="col-md-10"></textarea>
+            <button class="saveBtn col-md-1 btn"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row past present future time-block" data-hour="11">
+            <div class="col-md-1">11am</div>
+            <textarea class="col-md-10"></textarea>
+            <button class="saveBtn col-md-1 btn"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row past present future time-block" data-hour="12">
+            <div class="col-md-1">12am</div>
+            <textarea class="col-md-10"></textarea>
+            <button class="saveBtn col-md-1 btn"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row past present future time-block" data-hour="13">
+            <div class="col-md-1">1pm</div>
+            <textarea class="col-md-10"></textarea>
+            <button class="saveBtn col-md-1 btn"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row past present future time-block" data-hour="14">
+            <div class="col-md-1">2pm</div>
+            <textarea class="col-md-10"></textarea>
+            <button class="saveBtn col-md-1 btn"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row past present future time-block" data-hour="15">
+            <div class="col-md-1">3pm</div>
+            <textarea class="col-md-10"></textarea>
+            <button class="saveBtn col-md-1 btn"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row past present future time-block" data-hour="16">
+            <div class="col-md-1">4pm</div>
+            <textarea class="col-md-10"></textarea>
+            <button class="saveBtn col-md-1 btn"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row past present future time-block" data-hour="17">
+            <div class="col-md-1">5pm</div>
+            <textarea class="col-md-10"></textarea>
+            <button class="saveBtn col-md-1 btn"><i class="far fa-save"></i></button>
+        </div>
 
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-1 time-field field">time display</div>
-                <div class="col-10 text-field field">entry field </div>
-                <div class="col-1 save-field field">
-                    <button><i class="fa fa-book" aria-hidden="true"></i></button>
-                </div>
-
-            </div>
-
-        </article>
+    </div>
     </div>
 
-    <script src="main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="main.js"></script>
 
 </body>
 
