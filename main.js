@@ -29,7 +29,8 @@ $(document).ready(function () {
     // console.log(rowArr);
 
 
-    var currentHour = moment().format('HH');
+    var currentHour = 13;
+    // moment().format('HH');
 
     rowArr.each(function () {
         // console.log(this.innerText)
